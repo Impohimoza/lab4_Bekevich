@@ -3,13 +3,13 @@ import streamlit as st
 from titanic_analysis import analyze_titanic_data
 
 
-df = pd.read_csv('titanic.csv', delimiter=',')
+df = pd.read_csv('./data/titanic.csv', delimiter=',')
 
 st.set_page_config(
     page_title="Анализ пассажиров Титаника",
 )
 
-st.image("titanic_image.jpg",)
+st.image("./data/titanic_image.jpg",)
 st.title("Анализ пассажиров Титаника")
 st.markdown("---")
 

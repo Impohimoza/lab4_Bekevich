@@ -1,6 +1,6 @@
 # titanic_analysis.py
 import pandas as pd
-import numpy as np
+
 
 def analyze_titanic_data(df, survived, number):
     """
